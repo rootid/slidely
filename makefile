@@ -1,7 +1,7 @@
 .PHONY: git_config git_del git_push_master 
 
 git_config :
-	git config user.email "vXXXXXXXXXXX@gmail.com"
+	git config user.email "v@gmail.com"
 	git config user.name "rooid"
 
 git_del :
