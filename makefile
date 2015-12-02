@@ -8,8 +8,6 @@ git_del :
 	git status | grep 'deleted' | cut -d ":" -f2 | xargs git rm
 
 git_push_master :
-	git push -u origin1 master
-
-git_push_master1 :
 	git push -u origin master
+
 
