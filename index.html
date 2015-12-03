@@ -15,11 +15,11 @@
   </head>
   <body>
 	<style>
-
-		*{
+	 *{
 		    margin:0;
 		    padding: 0;
 				font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+				//background : #f7f7f7;
 		}
 		#header{
 		       background: #dee9ff;
@@ -38,6 +38,7 @@
     text-transform: uppercase;
     float: left;
     margin-top: 20px;
+		color : #3b5998;
 }
 		
 
@@ -89,15 +90,15 @@ body{
     color: #395B91;
     font-weight:bold;
     width:500px;
-
     height:200px;
     text-align:left;
 }
+
 h2{
     margin: 20px;
 }
-#impress{
 
+#impress{
     height: 450px;
     position: relative;
     width: auto;
@@ -109,6 +110,7 @@ h2{
     overflow: hidden;
     position: relative;
     width: 960px;
+		background : #f7f7f7;
 }
 
 .step {
@@ -151,14 +153,30 @@ h2{
    width: 100%; /* for IE 6 */
 }
 
+.singleImgTxt1 {
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
 h3 { 
    position: absolute; 
    top: 200px; 
    left: 0; 
    //width: 100%; 
-	 font-size: 50px;
+   color:#3b5998;
+	 font-size: 60px;
 	 padding:0 5px;
-   background: rgba(255,175,75,1);
+   //background: rgba(255,175,75,1);
+}
+
+#use-id {
+
+   position: absolute; 
+   top: 40px; 
+   left: 0; 
+   color:#3b5998;
+	 font-size: 60px;
+	 padding:0 5px;
 }
 
 #about_image{
@@ -176,11 +194,10 @@ h3 {
 .intro-title{
     font-size: 50px;
     margin: 150px 0;
-    color:#000;
+    color:#3b5998;
     //font-weight: bold;
     text-align: center;
 		font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-    //font-family: 'Arvo', sans-serif;
 }
 
 .past .intro-title{
@@ -372,7 +389,6 @@ margin: 20px 0;
 
 
 	</style>
-
 		
 <div id="header">
 	 <div id="header_panel">
@@ -395,92 +411,77 @@ margin: 20px 0;
 	<div id="wrap">
 			<div id="impress">
 					<div id="what" class="step slide" data-x="0" data-y='0'  data-type="what" >
-                    <div>
-                        <div id="what_intro">
-													<span class="title2"><img src="images/sslicon.png"/>
-													</span>
-												</div>
-                    </div>
+									<div class="singleImgTxt"> 
+									<img src="images/sslicon.png"/>
+									<h3> What is SSL? </h3>
+									 </div>
           </div>
                 <div id="" class="step slide" data-x="0" data-y='500' data-type="what" >
-                    <div class="intro-title">What is SSL?</div>
-                </div>
-                <div id="" class="step slide" data-x="0" data-y='600' data-type="what" >
                     <div class="intro-title">A type of a network protocol.</div>
 										</div>
-								<div id="" class="step slide" data-x="0" data-y='700' data-type="what" >
+								<div id="" class="step slide" data-x="0" data-y='600' data-type="what" >
 													<div class="intro-title"> End-to-End encryption and decryption protocol. </div>
                 </div>
-								<div id="" class="step slide" data-x="0" data-y='800' data-type="what" >
+								<div id="" class="step slide" data-x="0" data-y='700' data-type="what" >
 								<div class="intro-title"> Secure socket layer.</div>
-
                 </div>
-							  <div id="" class="step slide" data-x="0" data-y='950' data-type="what" >
+							  <div id="" class="step slide" data-x="0" data-y='800' data-type="what" >
 									<div class="intro-title"> Part of a session layer in the OSI model. </div>
                 </div>
-                <div id="" class="step slide" data-x="0" data-y='1500' data-type="what" >
+                <div id="" class="step slide" data-x="0" data-y='1400' data-type="what" >
                     <div class="singleImg"><img src="images/ssl_in_layer.png" width="900px" height="500px" /></div>
 								</div>
-
-					<div id="why" class="step slide" data-x="2000" data-y='400'  data-type="why" >
-                    <div>
-                        <div id="why_intro">
-													<div class="singleImg"><img src="images/ssl_working.png" width="900px" height="500px" /></div>
-													</span>
-												</div>
-                    </div>
-          </div>
-
-                <div id="" class="step slide" data-x="1500" data-y='-200' data-type="why" >
-                    <div class="intro-title">Why SSL?</div>
-                </div>
-                <div id="" class="step slide" data-x="2000" data-y='-200' data-type="why" >
-                    <div class="intro-title"> To provide privacy and reliability between two communicating applications.</div>
-										</div>
-								<div id="" class="step slide" data-x="2000" data-y='1000' data-type="why" >
-													<div class="intro-title"> Privacy : Connection through encryption and Identification through certificates. </div>
-                </div>
-								<div id="" class="step slide" data-x="2000" data-y='-200' data-type="why" >
-									<div class="intro-title"> Reliability : Message integrity checks </div>
-                </div>
-
-
-					<div id="how" class="step slide" data-x="3200" data-y='400'  data-type="how" >
+					
+		        <div id="why" class="step slide" data-x="1000" data-y='-200' data-type="why" >
+		             <div class="intro-title">Why SSL?</div>
+		         </div>
+		         <div id="" class="step slide" data-x="1000" data-y='-200' data-type="why" >
+		             <div class="intro-title"> To provide privacy and reliability between two communicating applications.</div>
+						 		</div>
+						 <div id="" class="step slide" data-x="1000" data-y='-200' data-type="why" >
+						 					<div class="intro-title"> Privacy : Connection through encryption and Identification through certificates. </div>
+		         </div>
+						 <div id="" class="step slide" data-x="1000" data-y='-200' data-type="why" >
+						 	<div class="intro-title"> Reliability : Message integrity checks </div>
+		       </div>
+		
+					<div id="how" class="step slide" data-x="2500" data-y='-200'  data-type="how" >
                     <div>
                         <div id="how_intro">
-													<div class="singleImgTxt"> 
-														<img src="images/ssl_impl.png" width="900px" height="500px" />
-															<h3> How to use it? </h3>
+													<div class="singleImgTxt1"> 
+														<img src="images/congs-2.png" width="900px"  height="575px"/>
+															<div id="use-id"> How it works? </div>
 														</div>
 												</div>
                     </div>
           </div>
+                <div id="" class="step slide" data-x="2500" data-y='500' data-type="how" >
+									<div class="singleImgTxt"> 
+									<img src="images/ssl_work.png" width="900px"  height="575px"/>
+									</div>
+								</div>
 
-                <div id="" class="step slide" data-x="3200" data-y='-400' data-type="how" >
-                    <div class="intro-title"> Client and Server consensus about SSL version.</div>
+								<div id="" class="step slide" data-x="2500" data-y='1400' data-type="how" >
+									<div class="singleImgTxt"> 
+									<img src="images/ssl_work2.png" width="900px"  height="575px"/>
+									</div>
+								</div>
 
-										</div>
-								<div id="" class="step slide" data-x="2000" data-y='-500' data-type="how" >
-													<div class="intro-title"> A certificate signed by unbiased CA like verisign,Thwate </div>
-                </div>
-
-
-					<div id="future" class="step slide" data-x="3200" data-y='400'  data-type="how" >
-                    <div>
-                        <div id="how_intro">
-													<div class="singleImgTxt"> 
-														<img src="images/future_1024_768.png" width="900px" height="500px" />
-															<h3> What's Next? </h3>
-														</div>
-												</div>
-                    </div>
-          </div>
-                <div id="" class="step slide" data-x="3200" data-y='-400' data-type="how" >
+								<div id="future" class="step slide" data-x="3800" data-y='400'  data-type="how" >
+          			          <div>
+          			              <div id="how_intro">
+																<div class="singleImgTxt"> 
+																	<img src="images/future_1024_768.png" width="900px" height="500px" />
+																		<h3> What's Next? </h3>
+																	</div>
+															</div>
+          			          </div>
+          			</div>
+                <div id="" class="step slide" data-x="3800" data-y='900' data-type="how" >
                     <div class="intro-title"> Computation overhead.</div>
+									</div>
 
-
-										</div>
-								<div id="" class="step slide" data-x="2000" data-y='-500' data-type="how" >
+								<div id="" class="step slide" data-x="3800" data-y='1000' data-type="how" >
 													<div class="intro-title">  
 														Administrative overhead
 													</div>

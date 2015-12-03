@@ -10,4 +10,7 @@ git_del :
 git_push_master :
 	git push -u origin master
 
+start_server :
+	python -m SimpleHTTPServer 9000
+
 
