@@ -11,282 +11,135 @@
     <link rel="shortcut icon" href="favicon.png" />
 		<link rel="apple-touch-icon" href="favicon.png" />
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-	<style>
 
-	 *{
-				font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-		}
+		
+<style>
 
-		#header{
-		       background: #dee9ff;
-					 border-top: 5px solid #dee9ff;
-		       height: 100px;
-		}
+.img-responsive {
+ margin: 0 auto;
+}
 
-		#header_panel{
-		    width: 960px;
-		    margin: auto;
-		}
+#future_img {
+		max-width: 4%;
+    max-height: 4%;
+    transform: scale(0.75);
+		margin-left: 195px;
+		margin-top: 20px;
+}
+#ssl_impl_img_1 {
+		max-width: 10%;
+    max-height: 10%;
+    transform: scale(1);
+		padding: 25px;
+		margin-left: 195px;
+		margin-top: 20px;
+}
 
-.site_name{
-    font-size: 30px;
+#ssl_impl_img_2 {
+		max-width: 10%;
+    max-height: 10%;
+    transform: scale(3);
+	  margin: 155px; padding: 5px;
+}
+
+#ssl_impl_img_3 {
+		max-width: 2%;
+    max-height: 2%;
+    transform: scale(1.2);
+	  margin-left: 180px; 
+	  margin-top: 80px; 
+		padding: 5px;
+}
+
+#ssl_impl_img_4 {
+		max-width: 8%;
+    max-height: 8%;
+    transform: scale(2.8);
+	  margin-left: 205px; 
+	  margin-top: 220px; 
+		padding: 5px;
+}
+
+#ssl_impl_img {
+		max-width: 2%;
+    max-height: 2%;
+    transform: scale(0.55);
+	  margin: 20px; padding: 5px;
+}
+
+#ssl_impl_img {
+		max-width: 2%;
+    max-height: 2%;
+    transform: scale(0.55);
+	  margin: 20px; padding: 5px;
+}
+
+.navbar-fixed-top {
+    min-height: 40px;
+	  background: #dee9ff;
+}
+
+.navbar-default .navbar-brand {
+		color : #3b5998;
+}
+.navbar-default .navbar-nav>li>a {
+		color : #3b5998;
+}
+    
+.navbar-brand {
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     float: left;
     margin-top: 20px;
-		color : #3b5998;
-}
-		
-
-  #wrap{
-       min-height: 400px;
-       margin: 20px auto;
-       overflow: hidden;
-       position: relative;
-       width: 960px;
+    margin-left: 80px;
+    padding-left: 80px;
+		letter-spacing: 5px;
 }
 
-
-.top_menu{
-    float: right;
-}
-
-.top_menu ul li{
-    float: left;
-    display: block;
+.navbar-nav > li > a {
+		letter-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding: 10px;
+    line-height: 60px;
     font-size: 30px;
+		margin-left: 20px;
+		margin-right: 30px;
 }
 
-.top_menu ul li:hover{
-    cursor:hand;
-
-}
-
-.top_menu ul li a{
-    text-decoration: none;
-}
-
-.menu_highlight{
-		background:#D00505 !important;
-}
-
-#footer{
-    background: #f8f8f8;
-    height: 100px;
-}
-
-body{
-    overflow: hidden !important;
-}
-
-
-.slide{
-    color: #395B91;
-    font-weight:bold;
-    width:500px;
-    height:200px;
-    text-align:left;
-}
-
-h2{
-    margin: 20px;
-}
-
-#impress{
-    height: 450px;
-    position: relative;
-    width: auto;
-
-}
-#wrap{
-    //min-height: 400px;
-    //margin: 20px auto;
-    //overflow: hidden;
-    //position: relative;
-    //width: 1200px;
-    width: 100%;
-    height : 500px;
-		background : #f7f7f7;
-}
-
-.step {
-    width: 1200px;
-    height: 600px;
-    display: block;
-    transition: opacity 1s;
-}
-
-#what {
-    width: 1000px;
-    float: left;
-    text-align: center;
-    margin-top: 10px;
-    color: #000;
-    font-size: 100px;
-    font-weight: bold;
-}
-
-
-
-#what .title2 img{
- width: 500px;
- height: 500px;
- border-radius:130px;
- border: 10px solid #FFF;
-
-}
-
-.singleImg {
-
- width: 100px;
- height: 400px;
- margin: 0 80px;
- padding-top: 30px;
-}
-
-.singleImgTxt {
-   position: relative; 
-   width: 100%; /* for IE 6 */
-}
-
-.singleImgTxt1 {
-   position: relative; 
-   width: 100%; /* for IE 6 */
-}
-
-h3 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   //width: 100%; 
-   color:#3b5998;
-	 font-size: 60px;
-	 padding:0 5px;
-   //background: rgba(255,175,75,1);
-}
-
-#use-id {
-
-   position: absolute; 
-   top: 40px; 
-   left: 0; 
-   color:#3b5998;
-	 font-size: 60px;
-	 padding:0 5px;
-}
-
-#about_image{
-    float: left;
-}
-
-#about_image img{
-    height: 400px;
-}
-
-#about{
-    height: 500px;
-}
-
-.intro-title{
-    font-size: 50px;
-    margin: 150px 0;
-    color:#3b5998;
-    //font-weight: bold;
-    text-align: center;
-		font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.past .intro-title{
-    opacity:0.0;
-}
-.future .intro-title{
-    opacity:0.0;
-}
-.active .intro-title{
-    opacity:1;
-    text-transform: uppercase;
-}
-
-.portfolio{
-    background: #f8f8f8;
-    height: 500px;
-    margin: 10px 30px;
-    width: 1100px;
-
-}
-
-.portfolio .small{
-    display: none;
-}
-
-.portfolio-left{
-    width: 650px;
-    float: left;
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
     padding-top: 10px;
-    
-}
-.portfolio-left img{
-    border:10px solid #FFF;
-    outline: 2px solid #cfcfcf;
-    margin: 20px;
-}
-.portfolio-right{
-    width:400px;
-    float: left;
-    margin: 40px 20px;
+    padding-bottom: 10px;}
 }
 
-.project-title{
-border-bottom: 5px solid #CD2828;
-    color: #000000;
-    font-family: "Arvo";
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-}
-.project-site{
+</style>
 
-}
+<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top">
 
-.project-desc{
-font-size: 18px;
-color:#4B4A4A;
-margin: 20px 0;
-}
-
-#why{
-    width:1200px;
-}
-
-	</style>
-
-
-<div class="row">
-<div id="header">
-	 <div id="header_panel">
-			<h1 class="site_name">SSL</h1>
-		 	<div class="top_menu">
-		 	 	<ul>
-		 			 	  <li id="menu-what" >
-		 					<a href="#/what">What</a></li>
-		 					<li id="menu-why" >
-		 					<a href="#/why">Why</a></li>
-		 					<li id="menu-how" >
-		 					<a href="#/how">How</a></li>
-		 					<li id="menu-future" >
-		 					<a href="#/future">Future</a></li>
+  <div class="navbar-header">
+		<div class="navbar-brand">SSL</div>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+		 			<li>
+		 			<a href="#/what">What</a></li>
+		 			<li>
+		 			<a href="#/why">Why</a></li>
+		 			<li>
+		 			<a href="#/how">How</a></li>
+		 			<li>
+		 			<a href="#/future">Future</a></li>
 		 			</ul>
-		 	</div>
-	 </div>
-</div>
-</div>
+</nav>
 
-<div class="row">
-	<div id="wrap">
+<div class="jumbotron vertical-center">
+<div class="container">
+<!--<div id="wrap">-->
 			<div id="impress">
 					<div id="what" class="step slide" data-x="0" data-y='0'  data-type="what" >
 									<div class="singleImgTxt"> 
@@ -326,28 +179,28 @@ margin: 20px 0;
 					<div id="how" class="step slide" data-x="2500" data-y='-200'  data-type="how" >
                     <div>
                         <div id="how_intro">
-													<div class="singleImgTxt1"> 
-														<img src="images/congs-2.png" width="900px"  height="575px"/>
+													<div id="ssl_impl_img_4"> 
+														<img src="images/congs-2.png"/>
 															<div id="use-id"> How it works? </div>
 														</div>
 												</div>
                     </div>
           </div>
                 <div id="" class="step slide" data-x="2500" data-y='800' data-type="how" >
-									<div class="singleImgTxt"> 
-									<img src="images/ssl_work.png" width="700px"  height="400px"/>
+									<div id="ssl_impl_img_3"> 
+									<img src="images/ssl_work.png"/>
 									</div>
 								</div>
 
-								<div id="" class="step slide" data-x="2500" data-y='1400' data-type="how" >
-									<div class="singleImgTxt"> 
-									<img src="images/ssl_work2.png" width="500px"  height="575px"/>
+								<div id="" class="step slide" data-x="2500" data-y='1700' data-type="how" >
+									<div id="ssl_impl_img_2"> 
+									<img src="images/ssl_work2.png" />
 									</div>
 								</div>
 
 								<div id="" class="step slide" data-x="2500" data-y='2400' data-type="how" >
-									<div class="singleImgTxt"> 
-									<img src="images/ssl_impl.png" width="500px"  height="575px"/>
+									<div id="ssl_impl_img_1"> 
+									<img src="images/ssl_impl.png"/>
 									</div>
 								</div>
 
@@ -359,31 +212,26 @@ margin: 20px 0;
 
 								<div id="" class="step slide" data-x="2500" data-y='3200' data-type="how" >
 											<div class="intro-title"> 
-											A server certificate signed by unbiased CA like verisign,
+											A server certificate signed by unbiased CA like verisign Or Self Signed Certificate
 											</div>
 								</div>
 
-								<div id="" class="step slide" data-x="2500" data-y='3800' data-type="how" >
-									<div class="singleImgTxt"> 
-									<img src="images/ssl_impl1.png" width="900px"  height="575px"/>
+								<div id="" class="step slide" data-x="2500" data-y='4200' data-type="how" >
+									<div id="ssl_impl_img"> 
+									<img src="images/ssl_impl1.png" />
 									</div>
 								</div>
 
 								<div id="future" class="step slide" data-x="3800" data-y='400'  data-type="future" >
-          			          <div>
-          			              <div id="future_intro">
-																<div class="singleImgTxt"> 
-																	<img src="images/future_1024_768.png" width="900px" height="500px" />
-																		<h3> What's Next? </h3>
+																<div id="future_img"> 
+																	<img src="images/future_1024_768.png"/>
 																	</div>
-															</div>
-          			          </div>
           			</div>
-                <div id="" class="step slide" data-x="3800" data-y='900' data-type="future" >
+                <div id="" class="step slide" data-x="3800" data-y='1500' data-type="future" >
                     <div class="intro-title"> Computation overhead.</div>
 									</div>
 
-								<div id="" class="step slide" data-x="3800" data-y='1000' data-type="future" >
+								<div id="" class="step slide" data-x="3800" data-y='1600' data-type="future" >
 													<div class="intro-title">  
 														Administrative overhead
 													</div>
@@ -437,5 +285,6 @@ margin: 20px 0;
             }, false);
 
         </script>
+
   </body>
 </html>
